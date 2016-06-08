@@ -5,6 +5,7 @@ class apache::mod::auth_cas (
   $cas_cookie_path_mode     = '0750',
   $cas_version              = 2,
   $cas_debug                = 'Off',
+  $cas_validate_server      = undef,
   $cas_validate_depth       = undef,
   $cas_certificate_path     = undef,
   $cas_proxy_validate_url   = undef,
